@@ -1,4 +1,4 @@
-## Simple file telegram synchronization utility
+## Simple telegram file synchronization utility
 
 This utility finds files which have not been changed for 15 minutes
 and removes them and uploads to Telegram. Created for task when I need to upload big
