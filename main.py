@@ -60,7 +60,7 @@ class FileWatcher:
             if not filepath.is_file():
                 continue
 
-            if not self.filename_regex.match(filepath.name):
+            if not self.filename_regex.fullmatch(filepath.name):
                 continue
 
             modified_seconds_ago = time.time() - os.path.getmtime(filepath)
