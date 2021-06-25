@@ -8,7 +8,7 @@ Created with MTProto API to bypass low file size limits.
 
 ### Installation
 ```bash
-python3 -m venv --python=python3.7 venv
+python3.8 -m venv venv
 source ./venv/bin/activate
 pip3 install -r requirements.txt
 python3 main.py \
